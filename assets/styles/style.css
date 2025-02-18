@@ -59,12 +59,12 @@
         }
 
         .apresentacao__curriculo {
-            padding: 5% 11% 10%;
+            padding:5% 5% 11% 10%;
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             flex-wrap: wrap;
-            justify-content: space-between;
-            min-height: calc(100vh - env(safe-area-inset-bottom));
+            
+            
             
         }
 
@@ -157,11 +157,6 @@
 
         }
 
-        .apresentacao__imagem__curriculo {
-            display: flex;
-            align-items: top;
-        }
-
         .imagem__botao {
             width: 8%;
         }
@@ -179,6 +174,10 @@
         }
 
         @media (max-width: 1200px) {
+          body {
+            height: 100%;
+          }
+            
             .cabecalho__menu {
                 padding: 6% 0;
                 justify-content: center;
@@ -223,16 +222,15 @@
                 
             }
 
-            .imagem__principal__curriculo {
-                width: 80%;
-                height:80%;
-                margin: 12% 0 20% 0;
+            ul {
+                list-style-position: outside;
+                padding-left: 28px;
             }
 
             .apresentacao__curriculo {
-                flex-direction: column-reverse;
-                
-                padding: 0 3% 10% 3%;
+                flex-direction: column;
+                min-height: 100vh;
+                padding: 10% 3% 25% 3%;
             }
 
             .apresentacao__imagem__curriculo {
