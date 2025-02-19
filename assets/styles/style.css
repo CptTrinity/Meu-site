@@ -61,7 +61,7 @@
         }
 
         .apresentacao__curriculo {
-            padding:5% 5% 11% 10%;
+            padding:8.8929vh 8.8929vh 19.56393728860711vh 17.7858vh;
             display: flex;
             flex-direction: column;
             flex-wrap: wrap;
@@ -100,7 +100,7 @@
 
         ul {
             list-style-position: outside;
-            padding-left: 3%;
+            padding-left: 4.534927058724345vh;
         }
 
         .apresentacao__botao {
@@ -226,11 +226,6 @@
             .apresentacao__conteudo__texto {
                 width: 100%;
                 
-            }
-
-            ul {
-                list-style-position: outside;
-                padding-left: 28px;
             }
 
             .apresentacao__curriculo {
