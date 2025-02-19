@@ -1,4 +1,5 @@
 
+
         @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
         @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
@@ -33,6 +34,7 @@
             text-decoration: none;
             font-family: "Robot Mono", serif;
             font-weight: 200;
+            font-size: clamp(1rem, 2.46vh, 3rem);
         }
 
         .apresentacao {
@@ -85,11 +87,13 @@
 
         .apresentacao__conteudo__titulo {
             font-size: 2.25rem;
+            font-size: clamp(1rem, 5.55vh, 5rem);
             font-family: var(--fonte-primaria);
         }
 
         .apresentacao__conteudo__texto {
             font-size: 1.5rem;
+            font-size: clamp(1rem, 3.7vh, 3rem);
             font-family: var(--fonte-primaria);
             font-weight: 200;
         }
@@ -115,6 +119,7 @@
         {
             font-family: var(--fonte-primaria);
             font-weight: 200;
+            font-size: clamp(1rem, 3.7vh, 3rem);
         }
 
         .apresentacao__botao__link {
@@ -127,7 +132,7 @@
             width: 378px;
             text-align: center;
             border-radius: 12px;
-            font-size: 24px;
+            font-size: clamp(1rem, 3.7vh, 3rem);
             /* padding-top: 21px;
             padding-bottom: 24px; */
             padding: 21px 0px;
@@ -169,6 +174,7 @@
             font-family: var(--fonte-primaria);
             font-weight: 400;
             font-size: 1.5rem;
+            font-size: clamp(1rem, 2.7vh, 3rem);
             height: 50px;
             align-items: center;
         }
@@ -229,7 +235,7 @@
 
             .apresentacao__curriculo {
                 flex-direction: column;
-                min-height: 100vh;
+                min-height:100svh;
                 padding: 10% 3% 25% 3%;
             }
 
